@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #444;
+      margin-bottom: 0.5rem;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.2rem;
+    }
+
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .project, .skill {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+
+    .contact a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .projects, .skills {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Data Analyst & Web App Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a passionate problem solver with a background in data analytics and full-stack web development. I love building tools that make people's lives easier and smarter—especially data-powered web apps.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <strong>Seat Selection App</strong>
+        <p>Flask + SQLite web app to manage real-time office seat bookings. Role-based access, booking limits, and email-based password reset.</p>
+        <a href="https://github.com/yourusername/seat-app" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <strong>Sales Dashboard</strong>
+        <p>Interactive Tableau dashboard for a retail dataset, featuring regional trends, top products, and profit margins.</p>
+        <a href="https://public.tableau.com/app/profile/yourprofile" target="_blank">View Dashboard</a>
+      </div>
+      <!-- Add more projects here -->
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <strong>Data Skills</strong>
+        <p>Python, Pandas, SQL, Excel, Tableau, Power BI</p>
+      </div>
+      <div class="skill">
+        <strong>Web Dev</strong>
+        <p>Flask, HTML, CSS, JavaScript, Tailwind CSS, Git</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Let’s connect! I’m open to freelance work, collaborations, or full-time roles.</p>
+    <a href="mailto:your.email@example.com">📧 your.email@example.com</a>
+    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name • Built with 💙 and clean HTML
+  </footer>
+
+</body>
+</html>
